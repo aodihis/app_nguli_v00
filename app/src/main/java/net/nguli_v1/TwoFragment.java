@@ -1,5 +1,8 @@
-package net.nguliv1.Fragments;
+package net.nguli_v1;
 
+/**
+ * Created by aodihis on 6/19/2016.
+ */
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,12 +10,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import net.nguliv1.R;
 
 
-public class Beranda extends Fragment{
+public class TwoFragment extends Fragment {
 
-    public Beranda() {
+    public TwoFragment() {
         // Required empty public constructor
     }
 
@@ -25,7 +27,6 @@ public class Beranda extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.beranda, container, false);
+        return inflater.inflate(R.layout.fragment_two, container, false);
     }
-
 }

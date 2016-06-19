@@ -1,4 +1,5 @@
-package net.nguliv1;
+package net.nguli_v1;
+
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -10,7 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import net.nguliv1.Fragments.Beranda;
+import net.nguli_v1.Fragments.Beranda;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,16 +30,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        setSupportActionBar(toolbar);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setIcon(R.drawable.logo);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setIcon(R.drawable.logo);
 
-        viewPager = (ViewPager) findViewById(R.id.viewpager);
-        setupViewPager(viewPager);
-
-        tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setupWithViewPager(viewPager);
+//            viewPager = (ViewPager) findViewById(R.id.viewpager);
+//            setupViewPager(viewPager);
+    //
+    //        tabLayout = (TabLayout) findViewById(R.id.tabs);
+    //        tabLayout.setupWithViewPager(viewPager);
     }
 
     private void setupViewPager(ViewPager viewPager) {

@@ -1,4 +1,4 @@
-package net.nguliv1;
+package net.nguli_v1;
 
 import org.junit.Test;
 

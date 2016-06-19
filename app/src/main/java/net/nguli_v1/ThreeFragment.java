@@ -1,4 +1,8 @@
-package net.nguliv1;
+package net.nguli_v1;
+
+/**
+ * Created by aodihis on 6/19/2016.
+ */
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
